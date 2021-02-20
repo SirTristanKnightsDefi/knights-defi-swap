@@ -1993,6 +1993,16 @@
     react-transition-group "^4.4.1"
     styled-system "^5.1.5"
 
+"@pancakeswap-libs/uikit@git://github.com/squarekale/pancake-uikit.git":
+  version "0.11.0"
+  resolved "git://github.com/squarekale/pancake-uikit.git#062f360a4d8a0394d1f8254cd980a225c7b4a6f7"
+  dependencies:
+    "@types/lodash" "^4.14.162"
+    "@types/styled-system" "^5.1.10"
+    lodash "^4.17.20"
+    react-transition-group "^4.4.1"
+    styled-system "^5.1.5"
+
 "@pedrouid/iso-crypto@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@pedrouid/iso-crypto/-/iso-crypto-1.0.0.tgz#cf06b40ef3da3d7ca7363bd7a521ed59fa2fd13d"

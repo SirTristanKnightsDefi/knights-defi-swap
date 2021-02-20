@@ -4,6 +4,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     background-color: ${({ theme }) => theme.colors.background};
 
+    font-family: 'Montserrat';
+
     img {
       height: auto;
       max-width: 100%;
