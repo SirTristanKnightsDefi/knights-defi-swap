@@ -4,7 +4,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     background-color: ${({ theme }) => theme.colors.background};
 
-    font-family: 'Montserrat';
+    font-family: 'Poppins';
 
     img {
       height: auto;
