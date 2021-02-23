@@ -6,6 +6,10 @@ import background from 'assets/svg/arch-light.svg'
 import leftPancakeSvg from 'assets/svg/left-pancake.svg'
 import rightPancakeSvg from 'assets/svg/right-pancake.svg'
 import groupPancakeSvg from 'assets/svg/group-pancake.svg'
+
+import bowlSvg from '../assets/svg/bowl.svg'
+import cupSvg from '../assets/svg/cup.svg'
+
 import Popups from '../components/Popups'
 
 import Web3ReactManager from '../components/Web3ReactManager'
@@ -56,11 +60,11 @@ const BodyWrapper = styled.div`
   background-size: 90%;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url(${background}), url(${leftPancakeSvg}), url(${rightPancakeSvg});
+    background-image: url(${background}), url(${cupSvg}), url(${bowlSvg});
     background-repeat: no-repeat;
     background-position: bottom, 10% center, 90% center;
-    background-size: contain, 20%, 20%;
-    min-height: 90vh;
+    background-size: contain, 10%, 15%;
+    min-height: 100vh;
   }
 `
 
