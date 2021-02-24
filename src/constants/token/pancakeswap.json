@@ -11,6 +11,14 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
+      "name": "MilkSwap Token",
+      "symbol": "MILK",
+      "address": "0x26aB5131DD666B4179aC909926ee3C18eE05E470",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/MILK.png"
+    },
+    {
       "name": "WBNB Token",
       "symbol": "WBNB",
       "address": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
