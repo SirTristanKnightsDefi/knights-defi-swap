@@ -1984,7 +1984,7 @@
 
 "@pancakeswap-libs/uikit@https://github.com/MilkSwap/pancake-uikit.git":
   version "0.12.0"
-  resolved "https://github.com/MilkSwap/pancake-uikit.git#0c403cb25a4035372e962d68743e8a7e34a3179d"
+  resolved "https://github.com/MilkSwap/pancake-uikit.git#d23457d0302dc294c02b631ef92b70d2ee577e2a"
   dependencies:
     "@rollup/plugin-image" "^2.0.6"
     "@types/lodash" "^4.14.162"
